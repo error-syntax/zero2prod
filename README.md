@@ -1,0 +1,5 @@
+- [x] Choose a web framework: Axum
+- [x] Define testing strategy
+- [ ] Choose a DB crate
+- [ ] Define migrations and schema manager
+- [ ] Write Queries
