@@ -1,6 +1,6 @@
 use axum::Router;
-use tokio::net::TcpListener;
 use std::net::SocketAddr;
+use tokio::net::TcpListener;
 
 pub mod app;
 
