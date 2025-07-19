@@ -11,7 +11,7 @@ pub async fn run() -> anyhow::Result<axum::serve::Serve<TcpListener, Router, Rou
   let listener = TcpListener::bind(addr).await?;
 
   println!("Starting server...");
-  println!("Listening on {}", addr);
+  println!("Listening on {addr}");
 
   Ok(axum::serve(listener, app))
 }
